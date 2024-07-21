@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "ragta"
+name = "ragtutor"
 version = "0.1.0"
 description = "Alejandro rag project"
 authors = ["AlexHagemeister <hagemeister.alex@gmail.com>"]
@@ -9,6 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 fastapi = "^0.111.1"
+uvicorn = "^0.30.3"
 
 
 [build-system]
