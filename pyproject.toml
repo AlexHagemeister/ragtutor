@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ragta"
+version = "0.1.0"
+description = "Alejandro rag project"
+authors = ["AlexHagemeister <hagemeister.alex@gmail.com>"]
+license = "mit"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
